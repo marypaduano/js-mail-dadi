@@ -16,8 +16,11 @@ play.addEventListener ('click', function () {
 
         result.innerHTML = 'hai vinto';
     }
-	else {
-	    result.innerHTML = 'hai perso';
+	else if (dadoUtente === dadoPc) { 
+	    result.innerHTML = 'pareggio';
+    }
+    else {
+        result.innerHTML = 'hai perso';
     }
 } )
 
